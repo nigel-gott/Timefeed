@@ -4,5 +4,4 @@
 *.swp
 *~
 *.db
-venv
 local_settings.py
