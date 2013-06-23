@@ -1,3 +1,5 @@
+import os
+import timefeed
 # Django settings for timefeed project.
 
 DEBUG = True
@@ -6,6 +8,8 @@ TEMPLATE_DEBUG = DEBUG
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
 )
+
+PROJECT_ROOT = os.path.dirname(timefeed.__file__)
 
 MANAGERS = ADMINS
 
