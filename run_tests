@@ -1,1 +1,3 @@
+#!/bin/bash
 pyrg manage.py test_coverage
+

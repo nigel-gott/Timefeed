@@ -1,0 +1,4 @@
+#!/bin/bash
+
+clear
+watchmedo shell-command --recursive --ignore-directories --patterns="*.py;*.js;*.html;*.css" --ignore-pattern="*coverage*" --wait --command="./run_tests"
