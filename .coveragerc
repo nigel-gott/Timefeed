@@ -1,0 +1,16 @@
+[run]
+branch = True
+source = timefeed.apps
+omit = 
+    *__init__*
+    *test*
+
+[report]
+
+exclude_lines =
+    __unicode__
+
+ignore_errors = True
+
+[html]
+directory = coverage

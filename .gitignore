@@ -5,4 +5,5 @@
 *~
 *.db
 .coverage
+coverage
 local_settings.py

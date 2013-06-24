@@ -1,1 +1,2 @@
-coverage run --source timefeed manage.py test timefeed
+coverage run manage.py test
+coverage html
