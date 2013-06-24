@@ -127,6 +127,7 @@ DJANGO_APPS = (
 
 EXTERNAL_APPS = (
         'discover_runner',
+        'django_coverage'
 )
 
 INTERNAL_APPS = (
@@ -167,3 +168,6 @@ LOGGING = {
 
 # django-discover-runner settings.
 TEST_RUNNER = 'discover_runner.DiscoverRunner'
+
+# django-coverage settings.
+COVERAGE_REPORT_HTML_OUTPUT_DIR = os.path.join(PROJECT_ROOT, '../coverage')

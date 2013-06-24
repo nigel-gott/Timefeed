@@ -1,2 +1,1 @@
-coverage run manage.py test
-coverage html
+pyrg manage.py test_coverage
