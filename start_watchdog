@@ -1,4 +1,3 @@
 #!/bin/bash
-
-clear
+echo "###################### TIMEFEED WATCHDOG ######################"
 watchmedo shell-command --recursive --ignore-directories --patterns="*.py;*.js;*.html;*.css" --ignore-pattern="*coverage*" --wait --command="./run_tests"
