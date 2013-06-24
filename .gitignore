@@ -6,4 +6,5 @@
 *.db
 .coverage
 coverage
+test_report.html
 local_settings.py
