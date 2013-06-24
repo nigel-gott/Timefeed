@@ -6,7 +6,8 @@
 
 already_running=$(ps -a|grep "start_watchdog")
 if [ -z "$already_running" ]; then
-    gnome-terminal -x /home/nigel/code/timefeed/start_watchdog
+    cd /home/nigel/code/timefeed
+    gnome-terminal -x ./start_watchdog
 fi
 
 

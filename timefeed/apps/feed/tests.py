@@ -10,6 +10,7 @@ from timefeed.apps.feed.models import Feed
 
 class FeedTest(TestCase):
     def test_feed_model_name(self):
-        test_name = "TEST"
+        test_name = "TEST2"
+
         feed = Feed(name=test_name)
         self.assertEquals(feed.name, test_name)

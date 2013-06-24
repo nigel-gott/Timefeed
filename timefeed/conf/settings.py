@@ -167,7 +167,7 @@ LOGGING = {
 }
 
 # django-discover-runner settings.
-TEST_RUNNER = 'discover_runner.DiscoverRunner'
+TEST_RUNNER = 'timefeed.conf.html_discover_runner.HTMLDiscoverRunner'
 
 # django-coverage settings.
 COVERAGE_REPORT_HTML_OUTPUT_DIR = os.path.join(PROJECT_ROOT, '../coverage')
